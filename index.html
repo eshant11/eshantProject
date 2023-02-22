@@ -5,38 +5,135 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Tic Tac Toe</title>
-   <link rel="stylesheet" href="style.css">
+   <title>Payment history</title>
+   <!-- internal CSS -->
+   <!-- <Style>
+      table {
+         width: 100%;
+         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+
+      tr {
+         text-align: center;
+         
+      }
+
+      th {
+         font-size: small;
+         font-weight: lighter;
+         color: rgb(115, 113, 113);
+         padding-top:5vh ;
+      }
+
+      td {
+         font-size: large;
+         font-weight: bold;
+         color: rgb(2, 2, 78);
+      } -->
+   <!-- </Style> -->
 </head>
 
 <body>
-   <div class="container">
-      <h1>Tic Tac Toe</h1>
-      <div class="game" id="game" >
-         <div class="r1">
-            <div class="a" id="block_a" onclick="func1(this);func2(this)"></div>
-            <div class="b" id="block_b" onclick="func1(this);func2(this)"></div>
-            <div class="c" id="block_c" onclick="func1(this);func2(this)"></div>
-         </div>
-
-         <div class="r2">
-            <div class="d" id="block_d" onclick="func1(this);func2(this)"></div>
-            <div class="e" id="block_e"onclick="func1(this);func2(this)"></div>
-            <div class="f" id="block_f" onclick="func1(this);func2(this)"></div>
-         </div>
-
-         <div class="r3">
-            <div class="g" id="block_g" onclick="func1(this);func2(this)"></div>
-            <div class="h" id="block_h" onclick="func1(this);func2(this)"></div>
-            <div class="i" id="block_i" onclick="func1(this);func2(this)"></div>
-         </div>
-      </div>
-   </div>
-
-   <p>Eshant Mishra Coding git hub</p>
-
+   <table
+      style="width: 100%;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+      <tr style="text-align: center;">
+         <th style="font-size: small;
+         font-weight: lighter;
+         color: rgb(115, 113, 113);
+         padding-top:5vh ;">
+            Transaction Date
+         </th>
+         <th style="font-size: small;
+         font-weight: lighter;
+         color: rgb(115, 113, 113);
+         padding-top:5vh ;">
+            Total Amount
+         </th>
+         <th style="font-size: small;
+         font-weight: lighter;
+         color: rgb(115, 113, 113);
+         padding-top:5vh ;">
+            Description
+         </th>
+         <th style="font-size: small;
+         font-weight: lighter;
+         color: rgb(115, 113, 113);
+         padding-top:5vh ;">
+            Payment Type
+         </th>
+      </tr>
+      <tr style="text-align: center;">
+         <td style="font-size: large;
+         font-weight: bold;
+         color: rgb(2, 2, 78);">
+            Feb 16, 2023
+         </td>
+         <td style="font-size: large;
+         font-weight: bold;
+         color: rgb(2, 2, 78);">
+            $2,018.56
+         </td>
+         <td style="font-size: large;
+         font-weight: bold;
+         color: rgb(2, 2, 78);">
+            Payment
+         </td>
+         <td style="font-size: large;
+         font-weight: bold;
+         color: rgb(2, 2, 78);">
+            One Time Draft
+         </td>
+      </tr>
+      <tr style="text-align: center;">
+         <th style="font-size: small;
+         font-weight: lighter;
+         color: rgb(115, 113, 113);
+         padding-top:5vh ;">
+            Transaction Date
+         </th>
+         <th style="font-size: small;
+         font-weight: lighter;
+         color: rgb(115, 113, 113);
+         padding-top:5vh ;">
+            Total Amount
+         </th>
+         <th style="font-size: small;
+         font-weight: lighter;
+         color: rgb(115, 113, 113);
+         padding-top:5vh ;">
+            Description
+         </th>
+         <th style="font-size: small;
+         font-weight: lighter;
+         color: rgb(115, 113, 113);
+         padding-top:5vh ;">
+            Payment Type
+         </th>
+      </tr>
+      <tr style="text-align: center;">
+         <td style="font-size: large;
+         font-weight: bold;
+         color: rgb(2, 2, 78);">
+            Feb 16, 2023
+         </td>
+         <td style="font-size: large;
+         font-weight: bold;
+         color: rgb(2, 2, 78);">
+            $2,018.56
+         </td>
+         <td style="font-size: large;
+         font-weight: bold;
+         color: rgb(2, 2, 78);">
+            Payment
+         </td>
+         <td style="font-size: large;
+         font-weight: bold;
+         color: rgb(2, 2, 78);">
+            One Time Draft
+         </td>
+      </tr>
+   </table>
 </body>
-<script src="index.js"></script>
-<script src="prac.js"></script>
 
 </html>
